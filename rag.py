@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class RagOpenAI:
     def __init__(self, question):
-        self.client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY')
+        self.client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
         self.question = question
 
 
