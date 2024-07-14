@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "w_qa_bot"}]
 
 [tool.poetry.dependencies]
-python = "3.11.4"
+python = "3.11.9"
 streamlit = "1.33.0"
 pandas = "^2.2.2"
 openai = "^1.35.13"
